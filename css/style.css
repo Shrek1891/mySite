@@ -30,11 +30,11 @@ a {
 }
 
 .container.show-nav {
-    transform: rotate(-20deg);
+    transform: rotate(-30deg);
 } 
 
 .container.show-nav .circle {
-    transform: rotate(-65deg);
+    transform: rotate(-70deg);
 }
 
 
