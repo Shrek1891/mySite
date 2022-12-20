@@ -3,10 +3,11 @@
 }
 
 body {
-    overflow-x: hidden;
     margin: 0;
     background-color: #333;
     color: #222;
+    width: 100vh;
+
 }
 
 a {
@@ -25,7 +26,8 @@ a {
     transform-origin: top left;
     transition: transform 1s linear;
     width: 100vw;
-    min-height: 100vh;
+    height: 90vh;
+
     padding: 50px;
 }
 
@@ -83,13 +85,13 @@ a {
     transition-delay: 0.3s;
 }
 
-h1, p , h3 {
+h2, p , h3 {
     text-align: center;
 }
 
 nav {
     position: fixed;
-    bottom: 10px;
+    bottom: 10vh;
     left: 0;
     z-index: 100;
 }
@@ -97,6 +99,8 @@ nav {
 nav ul {
     list-style-type: none;
     padding-left: 10px;
+
+
 }
 nav ul li {
     text-transform: uppercase;
@@ -140,10 +144,24 @@ nav ul li+li+li {
     color: #333;
     line-height: 1.5;
 
-} 
+}
+
+.content a {
+    color: black;
+    text-decoration: none;
+    cursor: grab;
+}
+
+.content a.github {
+    color: greenyellow;
+}
+
+.content a.vercel {
+    color: deepskyblue;
+}
 
 
-@media screen and (min-width:960px) {
+@media screen and (max-width:960px) {
     nav ul li i {
         font-size: 15px;
     }
@@ -156,7 +174,7 @@ nav ul li+li+li {
     perspective: 1000px;
     position: relative;
     height: 400px;
-    max-width: 80%;
+    max-height: 80%;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -171,6 +189,7 @@ nav ul li+li+li {
     width: 100%;
     transform: translateX(50%) rotateY(-10deg);
     transition: transform .4s ease, opacity .4s ease;
+    overflow: hidden;
 
 }
 
@@ -263,7 +282,7 @@ nav ul li+li+li {
 
 .form-group label {
     display: block;
-    margin: 20px0 10 px;
+    margin: 20px  10px;
 }
 
 .form-group textarea {
