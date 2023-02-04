@@ -17,25 +17,32 @@ const cards = document.querySelector('.cards');
 
 const myCards = [
     {
-        description : "The simplest training site created on the classic react-based free movie API",
+        description : "Нou can view my profile on GitHub or find yourself. (Create by ReactJS ) ",
+        name: "Movie",
+        linkGit: "https://github.com/Shrek1891/find-in-Git",
+        linkShow: "https://find-in-git.vercel.app"
+    },
+
+    {
+        description : "The simplest training site created by classic react based on free movie API",
         name: "Movie",
         linkGit: "https://github.com/Shrek1891/movie2",
         linkShow: "https://movie2-vert.vercel.app"
     },
     {
-        description : "The simplest training SPA created on the classic react-based free food API",
+        description : "The simplest training SPA created by classic react based on free food API",
         name: "Food SPA",
         linkGit: "https://github.com/Shrek1891/food-spa",
         linkShow: "https://food-spa-pi.vercel.app"
     },
     {
-        description : "The simplest training dashboard created on react with redux",
+        description : "The simplest training vacation`s dashboard created by react with redux",
         name: "Dashboard",
         linkGit: "https://github.com/Shrek1891/dashbord-with-react",
         linkShow: "https://dashbord-with-react.vercel.app"
     },
     {
-        description : "The simplest APP created on react with asynchronous redux",
+        description : "The simplest APP about country , created by react with asynchronous redux",
         name: "Flags",
         linkGit: "https://github.com/Shrek1891/countries-flags",
         linkShow: "https://countries-flags-omega.vercel.app"
