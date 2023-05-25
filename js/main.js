@@ -18,11 +18,16 @@ const cards = document.querySelector('.cards');
 const myCards = [
     {
         description : "Нou can view my profile on GitHub or find yourself. (Create by ReactJS ) ",
-        name: "Movie",
+        name: "profile-github",
         linkGit: "https://github.com/Shrek1891/find-in-Git",
         linkShow: "https://find-in-git.vercel.app"
     },
-
+    {
+        description : "Little sandbox on React for vanillaJS",
+        name: "sand-box",
+        linkGit: "https://github.com/Shrek1891/sand-box",
+        linkShow: "https://sand-box.vercel.app"
+    },
     {
         description : "The simplest training site created by classic react based on free movie API",
         name: "Movie",
