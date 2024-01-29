@@ -17,19 +17,19 @@ const cards = document.querySelector('.cards');
 
 const myCards = [
     {
-        description : "Нou can view my profile on GitHub or find yourself. ( ReactJS ) ",
+        description: "Нou can view my profile on GitHub or find yourself. ( ReactJS ) ",
         name: "profile-github",
         linkGit: "https://github.com/Shrek1891/find-in-Git",
         linkShow: "https://find-in-git.vercel.app"
     },
     {
-        description : "CRM system for teachers. ( ReactJS, supabase ) ",
+        description: "CRM system for teachers. ( ReactJS, supabase ) Login - test@test.com Password - 3718758 ",
         name: "profile-github",
         linkGit: "https://github.com/Shrek1891/techers_diary",
         linkShow: "https://techers-diary.vercel.app"
     },
     {
-        description : "Family TODO list. ( Nuxt, appwrite ) ",
+        description: "Family TODO list. ( Nuxt, appwrite ) ",
         name: "profile-github",
         linkGit: "https://github.com/Shrek1891/techers_diary",
         linkShow: "https://family-todo-steel.vercel.app"
@@ -37,9 +37,9 @@ const myCards = [
 
 ]
 
-myCards.forEach( (myCard, index) => {
+myCards.forEach((myCard, index) => {
     const cardEl = document.createElement("div");
-    if (index == 0 ) {
+    if (index == 0) {
         cardEl.classList.add("active");
     }
     cardEl.innerHTML = `
@@ -62,8 +62,6 @@ myCards.forEach( (myCard, index) => {
     cardEl.classList.add("card");
     cardsContainer.appendChild(cardEl);
 })
-
-
 
 
 open.addEventListener("click", () => {
