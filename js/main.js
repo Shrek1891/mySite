@@ -29,10 +29,10 @@ const myCards = [
         linkShow: "https://techers-diary.vercel.app"
     },
     {
-        description: "Family TODO list. ( Nuxt, appwrite ) ",
+        description: "Family TODO list. ( Next, MongoDB ) ",
         name: "profile-github",
-        linkGit: "https://github.com/Shrek1891/techers_diary",
-        linkShow: "https://family-todo-steel.vercel.app"
+        linkGit: "https://github.com/Shrek1891/teachersflow",
+        linkShow: "https://teachersflow.vercel.app/"
     },
 
 ]
