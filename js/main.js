@@ -24,13 +24,13 @@ const myCards = [
     },
     {
         description: "CRM system for teachers. ( ReactJS, supabase ) Login - test@test.com Password - 3718758 ",
-        name: "profile-github",
+        name: "CRM",
         linkGit: "https://github.com/Shrek1891/techers_diary",
         linkShow: "https://techers-diary.vercel.app"
     },
     {
-        description: "Family TODO list. ( Next, MongoDB ) ",
-        name: "profile-github",
+        description: "website as a 'stackOverflow'. ( Next, MongoDB ) ",
+        name: "copy-of-stackOverflow",
         linkGit: "https://github.com/Shrek1891/teachersflow",
         linkShow: "https://teachersflow.vercel.app/"
     },
